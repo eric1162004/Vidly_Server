@@ -1288,3 +1288,6 @@
 {"message":"Listening on Port 5000","level":"info"}
 {"message":"Listening on Port 5000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly_tests...","level":"info"}
+{"message":"Listening on Port 5000","level":"info"}
+{"message":"Listening on Port 5000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_tests...","level":"info"}
