@@ -31,13 +31,13 @@ userSchema.methods.generateAuthToken= function(){
     return token;
 }
 
-// let User = mongoose.model('User', userSchema);
+let User = mongoose.model('User', userSchema);
 
-try {
-    User = mongoose.model('user', userSchema);
-}catch(err){
-    User = User();
-}
+// try {
+//     User = mongoose.model('user', userSchema);
+// }catch(err){
+//     User = User();
+// }
 
 function validateUser(User){
     const Schema = {
